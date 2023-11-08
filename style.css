@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+}
+body{
+  display: flex;
+}
+.filme{
+  border: 2px solid black;
+  height: 300px;
+  width: 200px;
+  align-items: center;
+  margin: 50px;
+}
+img{
+  height: 200px;
+  width: 190px;
+  align-self: center;
+}
