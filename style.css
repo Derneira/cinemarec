@@ -1,18 +1,38 @@
-*{
-  margin: 0;
+body {
+  font-family: Arial, sans-serif;
 }
-body{
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filme {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
   display: flex;
-}
-.filme{
-  border: 2px solid black;
-  height: 300px;
-  width: 200px;
   align-items: center;
-  margin: 50px;
 }
-img{
-  height: 200px;
-  width: 190px;
-  align-self: center;
+
+.poster-filme {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.info-filme {
+  flex: 1;
+}
+
+.paginacao {
+  margin-top: 20px;
+}
+
+#barra-busca {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
 }
